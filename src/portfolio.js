@@ -26,7 +26,7 @@ const greeting = {
     "Full-Stack Developer with experience in designing and developing dynamic, secure, and high-performing applications. Skilled in translating UI/UX designs into interactive interfaces, building scalable backend services, and ensuring seamless system integration. Passionate about optimizing performance and enhancing user experience."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/14dl1SB5wj-XD9-147VCspjG85wx6q2Dh/view?usp=drivesdk ", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Yc_C9FR1cQ6-Bx3I73fD5sJ_GW5KThXK/view?usp=drivesdk", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -181,30 +181,19 @@ const workExperiences = {
       role: "Junior Software Engineer",
       company: "Grid Dynamics, Chennai",
       companylogo: require("./assets/images/griddynamics.png"),
-      date: "March 2024 – Present",
+      date: "September 2023 – Present",
       desc: "Working on developing scalable and efficient software solutions using modern technologies.",
       descBullets: [
-        "Full-Stack Development: Developed and maintained a full-stack enterprise application, ensuring seamless integration between frontend and backend.",
-        "Real-Time Dashboard: Designed and implemented responsive UI components for the real-time dashboard, enabling users to track sales, team performance, and business growth metrics.",
-        "API Development & Optimization: Developed and optimized RESTful APIs for customer & team management, goal setting, and progress tracking, ensuring smooth data flow between services.",
-        "Security & Access Control: Implemented authentication, authorization (JWT/OAuth), and role-based access control (RBAC) to manage user permissions across multiple functionalities.",
-        "Performance & Scalability: Collaborated with cross-functional teams to debug, troubleshoot, and optimize performance, ensuring high availability and scalability for multi-device access."
-      ]
-    },
-    {
-      role: "Trainee Software Engineer",
-      company: "Grid Dynamics, Chennai",
-      companylogo: require("./assets/images/griddynamics.png"),
-      date: "September 2023 – February 2024",
-      desc: "Gained hands-on experience in software development, debugging, and testing.",
-      descBullets: [
-        "UI & API Integration: Assisted in the development of UI components for the business performance dashboard and integrated APIs to display real-time sales and earnings reports.",
-        "Bug Fixing & Troubleshooting: Worked on debugging and troubleshooting issues in customer & team management modules, improving data consistency",
-        "Microservices & Database Management: Gained hands-on experience with microservices architecture and database management, optimizing queries for better performance.",
-        "Agile & Collaboration: Participated in code reviews, sprint planning, and Agile development workflows, contributing to efficient software delivery.",
-        "CI/CD & Deployment: Explored CI/CD pipelines and deployment strategies, ensuring seamless multi-device accessibility across web and mobile platforms."
-      ]
-    }    
+        "Designed, developed, and maintained scalable microservices using Java, Spring Boot, and JPA, enabling smooth business logic execution and improved backend efficiency.",
+        "Built dynamic and responsive web interfaces using Angular, HTML, CSS, JavaScript, and TypeScript, enhancing user experience across modules.",
+        "Implemented Kafka messaging for inter-service communication, ensuring reliable, asynchronous data flow between distributed systems.",
+        "Managed database design and interaction using SQL and MySQL, optimized queries, and supported ETL workflows for data consistency and reporting.",
+        "Secured services with Keycloak and Spring Security, managing user roles, authentication, and authorization in compliance with organizational policies.",
+        "Used Git for version control and collaborated with cross-functional teams in an Agile/Scrum environment for iterative development and timely delivery.",
+        "Participated in code reviews, debugging sessions, and performance tuning to ensure high-quality, maintainable code.",
+        "Contributed to documentation, deployment processes, and production support to ensure smooth handover and minimal downtime."
+    ]
+    },  
   ]
 };
 
@@ -225,7 +214,20 @@ const bigProjects = {
     {
       image: require("./assets/images/flp.png"),
       projectName: "FLP360",
-      projectDesc: "FLP360 is a business management platform designed for Forever Living Product (FLP) distributors. It offers advanced tools to track sales, manage customer relationships, analyze performance metrics, and enhance marketing efforts through an intuitive dashboard. The platform provides real-time data insights, commission tracking, and mobile-friendly access to help business owners streamline operations efficiently.",
+      projectDesc: [
+        "Designed, developed, and maintained scalable microservices using Java, Spring Boot, and JPA, enabling smooth business logic execution and improved backend efficiency.",
+        "Built dynamic and responsive web interfaces using Angular, HTML, CSS, JavaScript, and TypeScript, enhancing user experience across modules.",
+        "Implemented Kafka messaging for inter-service communication, ensuring reliable, asynchronous data flow between distributed systems.",
+        "Managed database design and interaction using SQL and MySQL, optimized queries, and supported ETL workflows for data consistency and reporting.",
+        "Secured services with Keycloak and Spring Security, managing user roles, authentication, and authorization in compliance with organizational policies.",
+        "Used Git for version control and collaborated with cross-functional teams in an Agile/Scrum environment for iterative development and timely delivery.",
+        "Participated in code reviews, debugging sessions, and performance tuning to ensure high-quality, maintainable code.",
+        "Contributed to documentation, deployment processes, and production support to ensure smooth handover and minimal downtime.",
+        "Contributed to the development and enhancement of FLP360, a comprehensive portal for managing distributor activities, including order processing, performance tracking, and business analytics.",
+        "Collaborated with cross-functional teams to integrate FLP360 with various backend systems, ensuring seamless data flow and real-time updates for distributors.",
+        "Assisted in implementing user-friendly interfaces and dashboards, providing distributors with intuitive tools for managing their business operations and performance metrics.",
+        "Participated in the testing and debugging processes, identifying and resolving issues to ensure the portal’s reliability and user satisfaction."
+      ],
       footerLink: [
         {
           name: "Visit Website",
